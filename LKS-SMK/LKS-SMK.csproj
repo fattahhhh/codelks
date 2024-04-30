@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B80957CC-6301-43C9-8D8C-F023B2B5375A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>LKS_SMK</RootNamespace>
+    <AssemblyName>LKS-SMK</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess\EmployeeDataAccess.cs" />
+    <Compile Include="DataAccess\FoodDrinkDataAccess.cs" />
+    <Compile Include="DataAccess\ItemDataAccess.cs" />
+    <Compile Include="DataAccess\LoginDataAccess.cs" />
+    <Compile Include="DataAccess\MasterRoomDataAccess.cs" />
+    <Compile Include="DataAccess\RoomTypeDataAccess.cs" />
+    <Compile Include="db\Database.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Model\EmployeeModel.cs" />
+    <Compile Include="Model\FoodDrinkModel.cs" />
+    <Compile Include="Model\ItemModel.cs" />
+    <Compile Include="Model\MasterRoomModel.cs" />
+    <Compile Include="Model\RoomTypeModel.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Store\Store.cs" />
+    <Compile Include="Tampilan\Admin\EmployeeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\EmployeeForm.Designer.cs">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MainFormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MainFormAdmin.Designer.cs">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterFoodDrink.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterFoodDrink.Designer.cs">
+      <DependentUpon>MasterFoodDrink.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterItem.Designer.cs">
+      <DependentUpon>MasterItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterRoomAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterRoomAdmin.Designer.cs">
+      <DependentUpon>MasterRoomAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterRoomTypeAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Admin\MasterRoomTypeAdmin.Designer.cs">
+      <DependentUpon>MasterRoomTypeAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Customer\MainFormCustomer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Customer\MainFormCustomer.Designer.cs">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\etc\Konfirmasi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\etc\Konfirmasi.Designer.cs">
+      <DependentUpon>Konfirmasi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tampilan\Login\LoginForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tampilan\Login\LoginForm.Designer.cs">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Tampilan\Admin\EmployeeForm.resx">
+      <DependentUpon>EmployeeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Admin\MainFormAdmin.resx">
+      <DependentUpon>MainFormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Admin\MasterFoodDrink.resx">
+      <DependentUpon>MasterFoodDrink.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Admin\MasterItem.resx">
+      <DependentUpon>MasterItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Admin\MasterRoomAdmin.resx">
+      <DependentUpon>MasterRoomAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Admin\MasterRoomTypeAdmin.resx">
+      <DependentUpon>MasterRoomTypeAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Customer\MainFormCustomer.resx">
+      <DependentUpon>MainFormCustomer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\etc\Konfirmasi.resx">
+      <DependentUpon>Konfirmasi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tampilan\Login\LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

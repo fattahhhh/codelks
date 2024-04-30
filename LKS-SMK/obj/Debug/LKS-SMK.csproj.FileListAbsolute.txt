@@ -1,0 +1,35 @@
+C:\Meja01\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.exe.config
+C:\Meja01\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.exe
+C:\Meja01\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.pdb
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.AssemblyReference.cache
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Properties.Resources.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.EmployeeForm.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MainFormAdmin.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterFoodDrink.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterItem.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterRoomAdmin.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterRoomTypeAdmin.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Customer.MainFormCustomer.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Login.LoginForm.resources
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.GenerateResource.cache
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.CoreCompileInputs.cache
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.exe
+C:\Meja01\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.pdb
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.exe.config
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.exe
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\bin\Debug\LKS-SMK.pdb
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.AssemblyReference.cache
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Properties.Resources.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.EmployeeForm.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MainFormAdmin.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterFoodDrink.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterItem.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterRoomAdmin.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Admin.MasterRoomTypeAdmin.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Customer.MainFormCustomer.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.etc.Konfirmasi.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS_SMK.Tampilan.Login.LoginForm.resources
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.GenerateResource.cache
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.csproj.CoreCompileInputs.cache
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.exe
+C:\fattah\lks it software\LKS-SMK\LKS-SMK\obj\Debug\LKS-SMK.pdb
